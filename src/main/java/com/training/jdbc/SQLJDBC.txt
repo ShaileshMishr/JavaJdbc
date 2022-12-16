@@ -1,0 +1,19 @@
+/*
+Create a database table that will hold all the transactions done on a credit card.
+ It will have fields such as account number, details of the transaction along with transaction date
+
+*/
+create table credit_info(Acc_no varchar(20) ,
+ Trans_no varchar(20), date_of_trans date not null, amount double);
+ 
+insert into credit_info values('123451','C1123451','2022-01-16',1000),('123452','C1123452','2022-02-26',2000),
+('123453','C1123453','2021-06-10',3000),('123454','C1123454','2022-09-12',4000),('123455','C1123455','2022-08-30',9000);
+
+insert into credit_info values('123451','C1123457','2022-02-16',1500),('123454','C1123459','2022-09-16',100),
+('123453','C11234579','2022-03-16',1400),('123451','C112345786','2022-03-16',1200);
+
+select * from credit_info;
+
+# call the procedure
+call get_credit_info('123451',02,@bal);
+select @bal as amount;

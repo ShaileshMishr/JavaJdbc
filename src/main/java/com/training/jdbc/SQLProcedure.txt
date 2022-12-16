@@ -1,0 +1,7 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_credit_info`(in accc_no varchar(20), in mon int, out bal double )
+BEGIN
+	
+    
+    select sum(amount)-sum(amount)*0.05 into bal from credit_info where Acc_no=accc_no and month(date_of_trans)<=mon;
+    
+END

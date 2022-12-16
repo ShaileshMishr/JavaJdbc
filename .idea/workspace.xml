@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="874428ce-687f-4280-9fcc-33f15faff610" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/jdbcDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/jdbcDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/jdbcDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/jdbcDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+    <list default="true" id="874428ce-687f-4280-9fcc-33f15faff610" name="Changes" comment="Test done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/JdbcTest_Friday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/jdbc/jdbcDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/training/jdbc/jdbcDemo4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/shaileshm/Desktop/JAVA/jdbc-demo",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shaileshm/Desktop/JAVA/jdbc-demo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.jdbcDemo4">
+}</component>
+  <component name="RunManager" selected="Application.JdbcTest_Friday">
+    <configuration name="JdbcTest_Friday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.training.jdbc.JdbcTest_Friday" />
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.training.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jdbcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.training.jdbc.jdbcDemo" />
       <module name="jdbc-demo" />
@@ -111,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JdbcTest_Friday" />
         <item itemvalue="Application.jdbcDemo4" />
         <item itemvalue="Application.jdbcDemo" />
         <item itemvalue="Application.jdbcDemo3" />
@@ -127,10 +128,19 @@
       <option name="presentableId" value="Default" />
       <updated>1670992405077</updated>
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1671016988550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671016988550</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="Test done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test done" />
   </component>
 </project>
